@@ -1,0 +1,7 @@
+{
+    "resourceType": "Patient",
+    "name": [{"text": "Max Mustermann"}],
+    "birthDate": "1985-03-12",
+    "address": [{"city": "Berlin", "line": ["Hauptstraße 12"]}]
+  }
+  

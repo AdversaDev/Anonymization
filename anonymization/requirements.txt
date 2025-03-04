@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+presidio-analyzer
+presidio-anonymizer
+psycopg2-binary
+sqlalchemy
+
+
