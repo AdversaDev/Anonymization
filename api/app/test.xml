@@ -1,0 +1,8 @@
+<patient>
+    <name>Max Mustermann</name>
+    <birthDate>1985-03-12</birthDate>
+    <address>
+        <city>Berlin</city>
+        <street>Hauptstraße 5</street>
+    </address>
+</patient>
