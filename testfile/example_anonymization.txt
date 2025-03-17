@@ -1,0 +1,5 @@
+Patient: Max Mustermann
+Adresse: Hauptstraße 12, 12345 Musterstadt
+Telefon: +491701234567
+Geburtsdatum: 01. Januar 1980
+Diagnose: Akute Bronchitis

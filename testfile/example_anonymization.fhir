@@ -1,0 +1,39 @@
+{
+  "resourceType": "Patient",
+  "id": "example",
+  "identifier": [
+    {
+      "use": "usual",
+      "system": "http://hospital.smarthealthit.org",
+      "value": "123456"
+    }
+  ],
+  "name": [
+    {
+      "use": "official",
+      "family": "Mustermann",
+      "given": [
+        "Max"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "+491701234567",
+      "use": "home"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1980-01-01",
+  "address": [
+    {
+      "line": [
+        "Hauptstraße 12"
+      ],
+      "city": "Musterstadt",
+      "postalCode": "12345",
+      "country": "DE"
+    }
+  ]
+}

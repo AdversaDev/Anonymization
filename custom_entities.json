@@ -1,11 +1,130 @@
 {
-    "unknown": [
-        "1990",
-        "6543",
-        "Ingenieur in München",
-        "7555 678901",
-        "1982",
-        "10 maja 1985 roku",
-        "Szpitalu Klinicznym w Krakowie"
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+      {
+        "resource": {
+          "resourceType": "Patient",
+          "id": "patient-12345",
+          "name": [
+            {
+              "use": "official",
+              "family": "Müller",
+              "given": ["Hans"]
+            }
+          ],
+          "gender": "male",
+          "birthDate": "1978-09-23",
+          "address": [
+            {
+              "use": "home",
+              "line": ["Bahnhofstraße 45"],
+              "city": "Hamburg",
+              "postalCode": "20095",
+              "country": "DE"
+            }
+          ],
+          "telecom": [
+            {
+              "system": "phone",
+              "value": "+49 40 1234567",
+              "use": "home"
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Practitioner",
+          "id": "practitioner-23456",
+          "name": [
+            {
+              "use": "official",
+              "family": "Schneider",
+              "given": ["Maria"]
+            }
+          ],
+          "gender": "female",
+          "address": [
+            {
+              "use": "work",
+              "line": ["Klinikstraße 10"],
+              "city": "Frankfurt",
+              "postalCode": "60311",
+              "country": "DE"
+            }
+          ],
+          "qualification": [
+            {
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0360/2.7",
+                    "code": "MD",
+                    "display": "Doktor der Medizin"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Organization",
+          "id": "organization-56789",
+          "name": "Universitätsklinikum Hamburg-Eppendorf",
+          "address": [
+            {
+              "line": ["Martinistraße 52"],
+              "city": "Hamburg",
+              "postalCode": "20246",
+              "country": "DE"
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "encounter-78901",
+          "status": "abgeschlossen",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB",
+            "display": "ambulant"
+          },
+          "subject": {
+            "reference": "Patient/patient-12345"
+          },
+          "participant": [
+            {
+              "individual": {
+                "reference": "Practitioner/practitioner-23456"
+              }
+            }
+          ],
+          "serviceProvider": {
+            "reference": "Organization/organization-56789"
+          },
+          "period": {
+            "start": "2024-03-05T10:00:00+01:00",
+            "end": "2024-03-05T10:45:00+01:00"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "386661006",
+                  "display": "Fieber"
+                }
+              ],
+              "text": "Der Patient hat hohes Fieber, starke Müdigkeit und klagt über Kopfschmerzen. Zusätzlich berichtet er über Muskelschmerzen, Schüttelfrost und allgemeines Unwohlsein seit zwei Tagen. Er hat auch über leichten Schwindel und Appetitlosigkeit geklagt."
+            }
+          ]
+        }
+      }
     ]
-}
+  }
+  
