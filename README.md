@@ -1,58 +1,87 @@
+# 🛡️ Anonymisierungssystem
 
-🚀 Installation & Setup
+> **Ein leistungsstarkes Tool zur Erkennung und Anonymisierung sensibler Daten**
 
-👁 1. Clone the Repository
+## 🔍 Übersicht
+Dieses Projekt bietet eine **Lösung zur Anonymisierung von Daten** mit **FastAPI** und **PostgreSQL**. Es nutzt **Presidio** zur Erkennung und Anonymisierung personenbezogener Informationen.
 
+⚡ **Technologien:** FastAPI | PostgreSQL | Presidio | Docker
+
+---
+
+## 🚀 Installation & Einrichtung
+
+### 📥 1. Repository klonen
+```bash
 git clone https://github.com/AdversaDev/Anonymization.git
 cd Anonymization
+```
 
-💧 2. Start with Docker
-
+### 🛠️ 2. Mit Docker starten
+```bash
 docker-compose up --build -d
+```
 
-This will start:
+🔹 **Dienste werden gestartet:**
+- **API**: `http://localhost:8000`
+- **Anonymisierungsdienst**: `http://localhost:8001`
+- **PostgreSQL-Datenbank**
 
-API at http://localhost:8000
+---
 
-Anonymization Service at http://localhost:8001
+## ⚡ Nutzung der API
 
-PostgreSQL Database
-
-⚡ Using the API
-
-🔹 Anonymization
-
+### 🔹 **Anonymisierung von Texten**
+**Anfrage:**
+```bash
 curl -X POST "http://localhost:8000/anonymize" \
      -H "Content-Type: application/json" \
-     -d '{"text": "John Doe, born on March 12, 1985, lives in New York."}'
+     -d '{"text": "Max Mustermann, geboren am 12. März 1985, lebt in Berlin."}'
+```
 
-Response:
-
+**Antwort:**
+```json
 {
   "session_id": "12345678-abcd-4321-efgh-56789ijklmn",
-  "anonymized_text": "anno_1234, born on anno_5678, lives in anno_9012."
+  "anonymized_text": "anno_1234, geboren am anno_5678, lebt in anno_9012."
 }
+```
 
-🔹 De-Anonymization
-
+### 🔹 **De-Anonymisierung von Texten**
+**Anfrage:**
+```bash
 curl -X POST "http://localhost:8000/deanonymize" \
      -H "Content-Type: application/json" \
-     -d '{"session_id": "12345678-abcd-4321-efgh-56789ijklmn", "text": "anno_1234 was born on anno_5678."}'
+     -d '{"session_id": "12345678-abcd-4321-efgh-56789ijklmn", "text": "anno_1234 wurde am anno_5678 geboren."}'
+```
 
-Response:
-
+**Antwort:**
+```json
 {
-  "deanonymized_text": "John Doe was born on March 12, 1985."
+  "deanonymized_text": "Max Mustermann wurde am 12. März 1985 geboren."
 }
+```
 
-🛠️ Configuration
+---
 
-docker-compose.yml – Defines the Docker services.
+## 🔧 Konfiguration
+| Datei                | Beschreibung |
+|----------------------|--------------|
+| `docker-compose.yml` | Definiert die Docker-Dienste |
+| `config.py` | Enthält API-Konfigurationsparameter |
+| `db/init.sql` | Erstellt die PostgreSQL-Tabelle zur Anonymisierung |
 
-config.py – Contains API configuration parameters.
+---
 
-db/init.sql – Creates the PostgreSQL table for anonymization.
+## 🎯 Funktionsweise
+1. **Erkennung:** Identifikation von Namen, Telefonnummern, E-Mails, Adressen uvm.
+2. **Anonymisierung:** Ersetzen von sensiblen Informationen durch eindeutige Tokens.
+3. **De-Anonymisierung:** Wiederherstellung der ursprünglichen Daten basierend auf einer Sitzung.
 
-📚 License
+---
 
-This project is licensed under the MIT License.
+## 📄 Lizenz
+Dieses Projekt steht unter der **MIT-Lizenz**.
+
+📌 **AdversaDev** – [GitHub](https://github.com/AdversaDev) 🚀
+
