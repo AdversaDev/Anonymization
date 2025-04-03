@@ -1,0 +1,143 @@
+{
+  "info": {
+    "name": "Anonymization System Tests",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Test Name Recognition",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"text\": \"Mein Name ist Eva und ich arbeite mit Thomas. Emma und Michael sind meine Kollegen. Elisa und Andreas treffen wir morgen zum Mittagessen. Elena und Stefan kommen auch mit.\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/anonymize",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "anonymize"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test Date Recognition",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"text\": \"Ich wurde am 15 Jan 1910 geboren. Mein Bruder wurde am 20. Mai 2015 geboren. Meine Schwester hat am 10. März 2000 Geburtstag. Der Termin ist am 5 Apr 1999 um 14:00 Uhr.\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/anonymize",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "anonymize"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Test License Plate Recognition",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"text\": \"Mein Auto hat das Kennzeichen M AB 123. Mein Freund fährt ein Auto mit dem Kennzeichen B C 1. Meine Schwester hat ein Auto mit dem Kennzeichen HH AB 1234.\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/anonymize",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "anonymize"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Comprehensive Test",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"text\": \"Mein Name ist Eva, ich wurde am 15 Jan 1910 geboren und wohne in Hauptstraße 123, 10115 Berlin. Meine Telefonnummer ist +49 170 1234567 und ich fahre ein Auto mit dem Kennzeichen M AB 123. Mein Freund Thomas wurde am 20. Mai 2015 geboren und hat das Kennzeichen B C 1. Meine Kollegin Emma arbeitet mit Michael und Andreas zusammen. Elisa und Stefan treffen sich am 10. März 2000 mit Elena und Martin.\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/anonymize",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "anonymize"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Deanonymization Test",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"session_id\": \"REPLACE_WITH_SESSION_ID_FROM_PREVIOUS_RESPONSE\",\n    \"text\": \"REPLACE_WITH_ANONYMIZED_TEXT_FROM_PREVIOUS_RESPONSE\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/deanonymize",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "deanonymize"
+          ]
+        }
+      }
+    }
+  ]
+}
