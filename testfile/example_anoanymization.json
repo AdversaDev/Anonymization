@@ -1,0 +1,10 @@
+{
+    "patient": {
+      "name": "Max Mustermann",
+      "address": "Hauptstraße 12, 12345 Musterstadt",
+      "phone": "+491701234567",
+      "birthdate": "1980-01-01"
+    },
+    "notes": "Patient presented with symptoms of cough and fever."
+  }
+  

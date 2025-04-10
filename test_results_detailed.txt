@@ -1,0 +1,224 @@
+
+
+===== TEST 1/28 =====
+Oryginalny tekst:
+Eva und Emma sind Freundinnen. Elena arbeitet mit Elisa zusammen. Erna und Elke gehen spazieren.
+
+Tekst po anonimizacji:
+Eva und anno_7ce7d790 sind Freundinnen. anno_c2b8b93c arbeitet mit anno_c375a6cb zusammen. anno_82658d02 und anno_0e040926 gehen spazieren.
+
+
+===== TEST 2/28 =====
+Oryginalny tekst:
+Professorin Dr. Eva Schmidt und Dipl.-Ing. Emma Müller arbeiten an der Universität. Die Ärztin Elena Weber behandelt Patienten in der Klinik.
+
+Tekst po anonimizacji:
+anno_29a6ddc0 anno_8f55c7fb und anno_220cc46f arbeiten an der Universität. Die anno_fc40044d anno_51b10136 behandelt Patienten in der Klinik.
+
+
+===== TEST 3/28 =====
+Oryginalny tekst:
+Die Ecke der Straße ist renoviert worden. Die erfolgreichste Strategie wurde implementiert. Ergebnis der Studie war eindeutig.
+
+Tekst po anonimizacji:
+Die Ecke der Straße ist renoviert worden. Die erfolgreichste Strategie wurde implementiert. Ergebnis der Studie war eindeutig.
+
+
+===== TEST 4/28 =====
+Oryginalny tekst:
+Prof. Dr. Michael Schmidt hält einen Vortrag. Dr. Anna Weber ist Chirurgin. Dipl.-Ing. Thomas Müller arbeitet bei Siemens.
+
+Tekst po anonimizacji:
+Prof. anno_dcc92469 hält einen Vortrag. anno_98e9ca49 ist Chirurgin. anno_c59a6432 arbeitet bei Siemens.
+
+
+===== TEST 5/28 =====
+Oryginalny tekst:
+Univ.-Prof. Dr. med. Hans-Peter Müller-Schmidt, Chefarzt der Klinik, und Priv.-Doz. Dr. rer. nat. Maria Schneider, Leiterin der Forschungsabteilung, veröffentlichten gemeinsam eine Studie.
+
+Tekst po anonimizacji:
+Univ.-anno_c4b38fcf. med. anno_1c8c572b, anno_1b84f748, und anno_e5514957. rer. nat. anno_2e7884b7, anno_a9a12ea2 der Forschungsabteilung, veröffentlichten gemeinsam eine Studie.
+
+
+===== TEST 6/28 =====
+Oryginalny tekst:
+Der Prof. hat die Vorlesung gehalten. Ein Dr. wird die Operation durchführen. Die Dipl.-Ing. arbeiten an dem Projekt.
+
+Tekst po anonimizacji:
+Der anno_1c8a8f75 Vorlesung gehalten. Ein anno_5ff19e12 Operation durchführen. Die anno_b1408540 dem Projekt.
+
+
+===== TEST 7/28 =====
+Oryginalny tekst:
+Ich wohne in der Hauptstraße 123. Die Firma befindet sich in der Berliner Allee 45. Das Restaurant ist am Marktplatz 7.
+
+Tekst po anonimizacji:
+Ich wohne anno_b75751da. Die Firma befindet sich anno_0e9edec2. Das Restaurant ist anno_e6939e0b.
+
+
+===== TEST 8/28 =====
+Oryginalny tekst:
+Das Büro ist in der Karl-Liebknecht-Straße 15 zu finden. Die Veranstaltung findet in der Friedrich-Ebert-Allee 140 statt. Die Ausstellung ist in der Johann-Sebastian-Bach-Straße 28.
+
+Tekst po anonimizacji:
+Das Büro ist in der anno_f0204c51 zu finden. Die Veranstaltung findet in der anno_dc560b57 statt. Die Ausstellung ist in der anno_b40525fc.
+
+
+===== TEST 9/28 =====
+Oryginalny tekst:
+Das Café ist Am Kupfergraben 10 zu finden. Die Galerie befindet sich An der Spree 5. Das Museum ist Unter den Linden 6. Der Laden ist Zum alten Markt 3.
+
+Tekst po anonimizacji:
+Das Café ist anno_46b5ab26 zu finden. Die Galerie befindet sich anno_3c1b727c. Das Museum ist anno_3fed4a53. Der Laden ist anno_bfd4c08a.
+
+
+===== TEST 10/28 =====
+Oryginalny tekst:
+Das Denkmal steht an der Straße des 17. Juni 135. Die Botschaft ist in der Straße des 13. Januar 45. Das Konzert findet Auf'm Hennekamp 39 statt.
+
+Tekst po anonimizacji:
+Das Denkmal steht anno_82d51bdf. Juni 135. Die Botschaft ist anno_ec2ba549. Januar 45. Das Konzert findet anno_1fa19468 statt.
+
+
+===== TEST 11/28 =====
+Oryginalny tekst:
+Das Treffen findet am 15. Januar 2023 statt. Der Termin ist für den 01.02.2023 geplant. Die Veranstaltung war am 3. Mär 2023. Das Dokument wurde am 04/05/2023 erstellt. Der Vertrag läuft bis 2023-06-07.
+
+Tekst po anonimizacji:
+Das Treffen findet am anno_4d7b128c statt. Der Termin ist für den anno_e2b700e7 geplant. Die Veranstaltung war am anno_d2c49f7d. Das Dokument wurde am anno_ef7395fd erstellt. Der Vertrag läuft bis anno_fd8f7d8a.
+
+
+===== TEST 12/28 =====
+Oryginalny tekst:
+Die Konferenz beginnt am 10. Jan. 2023. Die Prüfung ist am 20. Feb. '23. Die Reise ist vom 15. Dez. 2023 bis 05. Jan. 2024 geplant.
+
+Tekst po anonimizacji:
+Die Konferenz beginnt am anno_02d8c755. Die Prüfung ist am anno_8041a40d. Die Reise ist vom anno_f52b00bc bis anno_c2bedae4 geplant.
+
+
+===== TEST 13/28 =====
+Oryginalny tekst:
+Meine Telefonnummer ist +49 30 12345678. Sie können mich unter 0170 1234567 erreichen. Das Büro hat die Nummer 089-12345678. Internationale Nummer: +491701234567.
+
+Tekst po anonimizacji:
+Meine Telefonnummer ist anno_077f37b5. Sie können mich unter anno_cba9b91d erreichen. Das Büro hat die Nummer anno_a68209d5. Internationale Nummer: anno_cbada8a6
+
+
+===== TEST 14/28 =====
+Oryginalny tekst:
+Meine Steuer-ID ist 12/345/67890. Die Steuernummer des Unternehmens lautet 123/456/78901. Die persönliche Steueridentifikationsnummer ist 12345678901.
+
+Tekst po anonimizacji:
+anno_3b5ad693 ist anno_92c0b35c. Die Steuernummer des Unternehmens lautet anno_7c982c6a. Die persönliche Steueridentifikationsnummer ist anno_eda6b6ae.
+
+
+===== TEST 15/28 =====
+Oryginalny tekst:
+Die Kreditkartennummer lautet 4111 1111 1111 1111. Die Visa-Karte hat die Nummer 4123-5678-9012-3456. Die Mastercard: 5500 0000 0000 0004.
+
+Tekst po anonimizacji:
+Die Kreditkartennummer lautet anno_34a0166b. Die Visa-Karte hat die Nummer anno_1ed626a6. Die Mastercard: anno_92b0d638.
+
+
+===== TEST 16/28 =====
+Oryginalny tekst:
+Die Adresse ist Hauptstraße 123, 10115 Berlin. Das Paket wird nach Münchner Straße 45, 80331 München geschickt. Die Filiale in 70173 Stuttgart ist geschlossen.
+
+Tekst po anonimizacji:
+Die Adresse ist anno_03c8fb18. Das Paket wird nach anno_0b1da4a6 45, anno_a18160cc geschickt. Die Filiale in anno_edc36aef ist geschlossen.
+
+
+===== TEST 17/28 =====
+Oryginalny tekst:
+Das Auto hat das Kennzeichen B AB 123. Der LKW fährt mit M XY 456. Das Motorrad hat das Kennzeichen K A 1. Ohne Leerzeichen: BAB123.
+
+Tekst po anonimizacji:
+Das Auto hat das Kennzeichen anno_cae22898. Der LKW fährt mit anno_03c3060c. Das Motorrad hat das Kennzeichen anno_a0680dc3. Ohne Leerzeichen: anno_824163a0
+
+
+===== TEST 18/28 =====
+Oryginalny tekst:
+Meine IBAN lautet DE89 3704 0044 0532 0130 00. Die Firmen-IBAN ist DE02 1234 5678 9012 3456 78. Bitte überweisen Sie auf DE12345678901234567890.
+
+Tekst po anonimizacji:
+Meine IBAN lautet anno_b0a520b3. Die anno_db250f3f ist anno_f9d53f47. Bitte überweisen Sie auf anno_d08b6ecc.
+
+
+===== TEST 19/28 =====
+Oryginalny tekst:
+Die Sozialversicherungsnummer ist 12 160192 A123. Meine Rentenversicherungsnummer lautet 15 230487 B456. Die Versicherungsnummer: 65 220788 A123.
+
+Tekst po anonimizacji:
+Die Sozialversicherungsnummer ist anno_e65dae7d. Meine Rentenversicherungsnummer lautet anno_eba10f72. Die Versicherungsnummer: anno_6088993f.
+
+
+===== TEST 20/28 =====
+Oryginalny tekst:
+Die Personalausweisnummer ist L01X00T47. Der Reisepass hat die Nummer T22000129. Die ID-Nummer: A123456789.
+
+Tekst po anonimizacji:
+Die Personalausweisnummer ist anno_58c2581b. Der Reisepass hat die Nummer anno_bf752241. Die ID-Nummer: anno_3701e713
+
+
+===== TEST 21/28 =====
+Oryginalny tekst:
+Der Geschäftsführer hat die Entscheidung getroffen. Die Bundeskanzlerin sprach vor dem Parlament. Der Chefarzt operierte den Patienten. Die Professorin hielt die Vorlesung.
+
+Tekst po anonimizacji:
+Der anno_d59d85f1 hat die Entscheidung getroffen. Die anno_d9b9414e sprach vor dem Parlament. Der anno_05f72364 Patienten. Die anno_6ccd04bb Vorlesung.
+
+
+===== TEST 22/28 =====
+Oryginalny tekst:
+Der Anlagenmechaniker repariert die Heizung. Die Bankkauffrau berät Kunden. Der Fachinformatiker entwickelt Software. Die Hotelfachfrau arbeitet im Grand Hotel.
+
+Tekst po anonimizacji:
+Der anno_9773baea repariert die Heizung. Die Bankkauffrau berät Kunden. Der anno_dc302ea1 entwickelt Software. Die Hotelfachfrau arbeitet im anno_f96e1ac1.
+
+
+===== TEST 23/28 =====
+Oryginalny tekst:
+Die Siemens AG hat neue Produkte vorgestellt. Der FC Bayern München spielt in der Champions League. Die Technische Universität Berlin bietet neue Studiengänge an.
+
+Tekst po anonimizacji:
+anno_4279a258 hat neue Produkte vorgestellt. Der anno_f5ef27a9 München spielt in der Champions League. Die Technische anno_4ed72881 bietet neue Studiengänge an.
+
+
+===== TEST 24/28 =====
+Oryginalny tekst:
+Prof. Dr. Eva Schmidt (geboren am 15.03.1975) wohnt in der Karl-Marx-Allee 45, 10178 Berlin. Sie arbeitet als Chefärztin im Universitätsklinikum und ist unter +49 30 12345678 oder eva.schmidt@beispiel.de erreichbar. Ihr Auto mit dem Kennzeichen B EV 123 parkt vor dem Haus. Ihre IBAN lautet DE89 3704 0044 0532 0130 00.
+
+Tekst po anonimizacji:
+Prof. anno_8f55c7fb (geboren am anno_e3e3ea59) wohnt in der anno_673cb530 Berlin. Sie arbeitet als anno_7773325a und ist unter anno_077f37b5 oder anno_4dded111 erreichbar. Ihr Auto mit dem Kennzeichen anno_2892d298 parkt vor dem Haus. Ihre IBAN lautet anno_b0a520b3.
+
+
+===== TEST 25/28 =====
+Oryginalny tekst:
+Die Strategie des Unternehmens ist erfolgreich. Der Lieferant bringt die Ware. Die Ecke des Gebäudes wurde renoviert. Die Filiale ist geschlossen. Der Unfall ereignete sich gestern.
+
+Tekst po anonimizacji:
+Die Strategie des Unternehmens ist erfolgreich. Der Lieferant bringt die Ware. Die Ecke des Gebäudes wurde renoviert. Die Filiale ist geschlossen. Der Unfall ereignete sich gestern.
+
+
+===== TEST 26/28 =====
+Oryginalny tekst:
+Prof. Dr. med. Hans Schmidt, Chefarzt der Klinik für Innere Medizin, wohnt in der Berliner Straße 123, 10115 Berlin und fährt einen BMW mit dem Kennzeichen B HS 123.
+
+Tekst po anonimizacji:
+anno_c4b38fcf. med. anno_f6eb9d87, anno_1b84f748 für Innere Medizin, wohnt anno_2f0e39e0 Berlin und fährt einen BMW mit dem Kennzeichen anno_9ff21b1a.
+
+
+===== TEST 27/28 =====
+Oryginalny tekst:
+Die Sonne scheint heute sehr stark. Das Wetter soll morgen besser werden. Im Park blühen die Blumen. Der Himmel ist blau und die Vögel singen.
+
+Tekst po anonimizacji:
+Die Sonne scheint heute sehr stark. Das Wetter soll morgen besser werden. Im Park blühen die Blumen. Der Himmel ist blau und die Vögel singen.
+
+
+===== TEST 28/28 =====
+Oryginalny tekst:
+Herr Schmidt spricht mit Frau Müller über seine Reise nach Paris. They discussed the meeting on January 15th, 2023. Ils ont échangé leurs numéros: +49 170 1234567 et +33 6 12345678.
+
+Tekst po anonimizacji:
+anno_aa24a682 spricht mit Frau Müller über seine Reise nach anno_50be8047. They discussed the meeting on January 15th, 2023. Ils ont échangé leurs numéros: anno_08c80cbf et anno_0d6e8ae7.

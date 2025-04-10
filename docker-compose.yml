@@ -19,6 +19,8 @@ services:
     build: ./anonymization
     container_name: anonymization_service
     restart: always
+    ports:
+      - "8001:8001" 
     depends_on:
       - db
     environment:

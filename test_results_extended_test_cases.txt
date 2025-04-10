@@ -1,0 +1,163 @@
+WYNIKI TESTÓW ANONIMIZACJI - extended_test_cases.json
+==================================================
+
+===== TEST 1/20 =====
+Oryginalny tekst:
+Die Adresse lautet Hauptstraße 123, 10115 Berlin. Das Paket wird nach Münchner Straße 45, 80331 München geschickt. Die Filiale in der Kaiser-Friedrich-Ring-Straße 77, 65185 Wiesbaden ist geöffnet.
+
+Tekst po anonimizacji:
+Die Adresse lautet Hauptstraße 123, 10115 anno_2e25225c. Das Paket wird nach anno_c5985fc1 45, 80331 anno_76cce3e0 geschickt. Die Filiale in der anno_97378554 77, 65185 anno_68ef1bc4 ist geöffnet.
+
+
+===== TEST 2/20 =====
+Oryginalny tekst:
+Prof. Dr. Eva Schmidt wohnt in der Karl-Marx-Allee 45, 10178 Berlin. Die Veranstaltung findet in der Straße Beim Schlump 84, 20144 Hamburg statt. Das Büro befindet sich am Kurfürstendamm 123, 10719 Berlin.
+
+Tekst po anonimizacji:
+Prof. anno_3046a85a wohnt in der anno_13d75a0e, 10178 anno_5077d762. Die Veranstaltung findet in der Straße Beim Schlump 84, 20144 anno_17f39c1a statt. Das Büro befindet sich am anno_edc9c2a6 123, 10719 anno_f9c531aa.
+
+
+===== TEST 3/20 =====
+Oryginalny tekst:
+Bitte senden Sie das Paket nach Friedrichstraße 123, 10117 Berlin. Die Lieferung geht an Leopoldstraße 45, 80802 München. Der Brief wird zu Königsallee 60, 40212 Düsseldorf geschickt.
+
+Tekst po anonimizacji:
+Bitte senden Sie das Paket nach anno_f192c592 123, 10117 anno_9a4f1348. Die Lieferung geht an anno_9d06b7ae 45, 80802 anno_45a064ac. Der Brief wird zu anno_14e9e8bd 60, 40212 anno_9982d887 geschickt.
+
+
+===== TEST 4/20 =====
+Oryginalny tekst:
+Die Filiale in 70173 Stuttgart ist geschlossen. Das Treffen findet in 60329 Frankfurt statt. Der Laden in 50667 Köln hat neue Öffnungszeiten.
+
+Tekst po anonimizacji:
+Die Filiale in 70173 anno_5905cedd ist geschlossen. Das Treffen findet in 60329 anno_bb36adb2 statt. Der Laden in anno_2d58d9ab hat neue Öffnungszeiten.
+
+
+===== TEST 5/20 =====
+Oryginalny tekst:
+Die Ausstellung ist in der Johann-Sebastian-Bach-Straße 28, 04109 Leipzig. Das Museum befindet sich in der Friedrich-Ebert-Allee 140, 53113 Bonn. Die Galerie ist in der Karl-Liebknecht-Straße 15, 10178 Berlin.
+
+Tekst po anonimizacji:
+Die Ausstellung ist in der anno_ff91c74f 28, 04109 anno_e8fced25. Das Museum befindet sich in der anno_8a011d45 140, 53113 anno_836f4fc9. Die Galerie ist in der anno_40adc6d4 15, 10178 anno_73125f91.
+
+
+===== TEST 6/20 =====
+Oryginalny tekst:
+Die Firma hat ihren Sitz in der Hauptstraße 123, 3. Stock, 10115 Berlin. Das Restaurant befindet sich in der Marktstraße 45, Eingang links, 80331 München. Die Praxis ist in der Berliner Allee 67, Gebäude B, 40212 Düsseldorf.
+
+Tekst po anonimizacji:
+Die Firma hat ihren Sitz in der Hauptstraße 123, 3. Stock, 10115 anno_7384b4ba. Das Restaurant befindet sich in der anno_d209df7a 45, Eingang links, 80331 anno_0d31a771. Die Praxis ist in der anno_3f8412ad, anno_e6613b42, 40212 anno_6cc5b8ac.
+
+
+===== TEST 7/20 =====
+Oryginalny tekst:
+Das Treffen findet am 15 Januar 1910 statt. Die Konferenz war am 20 Februar 1945. Der Termin ist für den 30 März 2023 geplant.
+
+Tekst po anonimizacji:
+Das Treffen findet am anno_263bdcad statt. Die Konferenz war am anno_32eab274. Der Termin ist für den anno_02569346 geplant.
+
+
+===== TEST 8/20 =====
+Oryginalny tekst:
+Die Veranstaltung ist am 10 Jan 2023. Das Seminar findet am 15 Feb 2023 statt. Die Prüfung ist am 20 Mär 2023.
+
+Tekst po anonimizacji:
+Die Veranstaltung ist am anno_56789c4f. Das Seminar findet am anno_e87074cb statt. Die Prüfung ist am anno_c60159cf.
+
+
+===== TEST 9/20 =====
+Oryginalny tekst:
+Der Vertrag wurde am 01.02.2023 unterschrieben. Das Dokument ist vom 15-03-2023. Die Rechnung datiert auf 2023-04-30.
+
+Tekst po anonimizacji:
+Der Vertrag wurde am anno_208ae1b9 unterschrieben. Das Dokument ist vom anno_2cbdde4d. Die Rechnung datiert auf anno_cfe57593.
+
+
+===== TEST 10/20 =====
+Oryginalny tekst:
+Das Auto hat das Kennzeichen M AB 123. Der LKW fährt mit B C 1. Das Motorrad hat das Kennzeichen K XY 456.
+
+Tekst po anonimizacji:
+Das Auto hat das Kennzeichen anno_b6451bea. Der LKW fährt mit anno_85883404. Das Motorrad hat das Kennzeichen anno_054c5c50.
+
+
+===== TEST 11/20 =====
+Oryginalny tekst:
+Das Fahrzeug mit dem Kennzeichen MAB123 parkt vor dem Haus. Der Wagen BC1 gehört dem Nachbarn. Das Auto KXY456 steht in der Garage.
+
+Tekst po anonimizacji:
+Das Fahrzeug mit dem Kennzeichen anno_0bde81c9 parkt vor dem Haus. Der Wagen anno_59e13f62 gehört dem Nachbarn. Das Auto anno_e21d9abe steht in der Garage.
+
+
+===== TEST 12/20 =====
+Oryginalny tekst:
+Das Kennzeichen M-AB-123 ist für einen BMW registriert. Der Mercedes hat das Kennzeichen B-C-1. Der Audi fährt mit K-XY-456.
+
+Tekst po anonimizacji:
+Das Kennzeichen anno_50ecb5e0 ist für einen BMW registriert. Der Mercedes hat das Kennzeichen anno_223579fa. Der Audi fährt mit anno_bdae2490.
+
+
+===== TEST 13/20 =====
+Oryginalny tekst:
+Meine IBAN lautet DE89 3704 0044 0532 0130 00. Die Firmen-IBAN ist DE02 1234 5678 9012 3456 78. Bitte überweisen Sie auf DE12345678901234567890.
+
+Tekst po anonimizacji:
+Meine IBAN lautet anno_50c17fb6_e6b3197e. Die anno_96c2c2cd ist anno_1a56c68b 1234 5678 9012 3456 78. Bitte überweisen Sie auf DE12345678901234567890.
+
+
+===== TEST 14/20 =====
+Oryginalny tekst:
+Sie können mich unter +49 30 12345678 erreichen. Meine Handynummer ist 0170 1234567. Das Büro hat die Nummer 089-12345678.
+
+Tekst po anonimizacji:
+Sie können mich unter anno_9bfa2bf2 erreichen. Meine Handynummer ist anno_357a90ae. Das Büro hat die Nummer anno_fbe06e1e.
+
+
+===== TEST 15/20 =====
+Oryginalny tekst:
+Die Sozialversicherungsnummer ist 12 160192 A123. Meine Rentenversicherungsnummer lautet 15 230487 B456. Die Versicherungsnummer: 65 220788 A123.
+
+Tekst po anonimizacji:
+Die Sozialversicherungsnummer ist anno_a96a8a5f. Meine Rentenversicherungsnummer lautet anno_0811c2f4. Die Versicherungsnummer: anno_83cc667e.
+
+
+===== TEST 16/20 =====
+Oryginalny tekst:
+Die Personalausweisnummer ist L01X00T47. Der Reisepass hat die Nummer T22000129. Die ID-Nummer: A123456789.
+
+Tekst po anonimizacji:
+Die Personalausweisnummer ist L01X00T47. Der Reisepass hat die Nummer T22000129. Die ID-Nummer: anno_7493952c
+
+
+===== TEST 17/20 =====
+Oryginalny tekst:
+Eva und Emma sind Freundinnen. Elena arbeitet mit Elisa zusammen. Erna und Elke gehen spazieren.
+
+Tekst po anonimizacji:
+Eva und Emma sind Freundinnen. anno_7b820eb0 arbeitet mit anno_c9058ad7 zusammen. anno_d3743685 und anno_46db0198 gehen spazieren.
+
+
+===== TEST 18/20 =====
+Oryginalny tekst:
+Prof. Dr. Eva Schmidt leitet die Abteilung. Dipl.-Ing. Emma Müller ist verantwortlich für das Projekt. Dr. med. Elena Weber behandelt die Patienten.
+
+Tekst po anonimizacji:
+Prof. anno_c5d70951 leitet die Abteilung. anno_5d9d2b91 ist verantwortlich für das Projekt. Dr. med. anno_1738b3fb behandelt die Patienten.
+
+
+===== TEST 19/20 =====
+Oryginalny tekst:
+Prof. Dr. Eva Schmidt (geboren am 15.03.1975) wohnt in der Karl-Marx-Allee 45, 10178 Berlin. Sie arbeitet als Chefärztin im Universitätsklinikum und ist unter +49 30 12345678 oder eva.schmidt@beispiel.de erreichbar. Ihr Auto mit dem Kennzeichen B EV 123 parkt vor dem Haus. Ihre IBAN lautet DE89 3704 0044 0532 0130 00.
+
+Tekst po anonimizacji:
+Prof. anno_78095468 (geboren am anno_32a4f862) wohnt in der anno_4341afef, 10178 anno_7e749a51. Sie arbeitet als Chefärztin im anno_33a9ca47 und ist unter anno_7a77a858 oder anno_ab263887935442255 erreichbar. Ihr Auto mit dem Kennzeichen anno_6f019e6f 123 parkt vor dem Haus. Ihre IBAN lautet anno_6333ae97_01f9be0d.
+
+
+===== TEST 20/20 =====
+Oryginalny tekst:
+Herr Schmidt spricht mit Frau Müller über seine Reise nach Paris. They discussed the meeting on January 15th, 2023. Ils ont échangé leurs numéros: +49 170 1234567 et +33 6 12345678.
+
+Tekst po anonimizacji:
+anno_3a88b337 spricht mit Frau Müller über seine Reise nach anno_ce274eac. They discussed the meeting on January 15th, 2023. Ils ont échangé leurs numéros: anno_16cc21a1 et anno_8570f220.
+
+

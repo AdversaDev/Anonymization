@@ -1,6 +1,7 @@
 import requests
 import sys
-sys.stdout.reconfigure(encoding='utf-8')
+import io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 url = "http://127.0.0.1:8000/upload"
 file_path = "c:/Users/HopE/Desktop/Anonymisierungssystem/api/app/test.json",

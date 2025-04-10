@@ -1,0 +1,67 @@
+WYNIKI TESTÓW ANONIMIZACJI ADRESÓW
+==================================================
+
+===== TEST 1/5 =====
+Oryginalny tekst:
+Die Adresse lautet: Hauptstraße 123, 10115 Berlin.
+
+Wykryte encje:
+- LOCATION: 'Berlin'
+
+Tekst po anonimizacji:
+Die Adresse lautet: Hauptstraße 123, 10115 anno_2f2dc1b1.
+
+--------------------------------------------------
+
+===== TEST 2/5 =====
+Oryginalny tekst:
+Das Paket wird nach Münchner Straße 45, 80331 München geschickt.
+
+Wykryte encje:
+- LOCATION: 'Münchner Straße'
+- LOCATION: 'München'
+
+Tekst po anonimizacji:
+Das Paket wird nach anno_90161db6 45, 80331 anno_2d519e0a geschickt.
+
+--------------------------------------------------
+
+===== TEST 3/5 =====
+Oryginalny tekst:
+Die Filiale in der Kaiser-Friedrich-Ring-Straße 77, 65185 Wiesbaden ist geöffnet.
+
+Wykryte encje:
+- LOCATION: 'Kaiser-Friedrich-Ring-Straße'
+- LOCATION: 'Wiesbaden'
+
+Tekst po anonimizacji:
+Die Filiale in der anno_68ee680d 77, 65185 anno_473f977e ist geöffnet.
+
+--------------------------------------------------
+
+===== TEST 4/5 =====
+Oryginalny tekst:
+Prof. Dr. Eva Schmidt wohnt in der Karl-Marx-Allee 45, 10178 Berlin.
+
+Wykryte encje:
+- PERSON: 'Dr. Eva Schmidt'
+- LOCATION: 'Karl-Marx-Allee 45'
+- LOCATION: 'Berlin'
+
+Tekst po anonimizacji:
+Prof. anno_3e6163c6 wohnt in der anno_f64dac23, 10178 anno_8d844b91.
+
+--------------------------------------------------
+
+===== TEST 5/5 =====
+Oryginalny tekst:
+Die Veranstaltung findet in der Straße Beim Schlump 84, 20144 Hamburg statt.
+
+Wykryte encje:
+- LOCATION: 'Hamburg'
+
+Tekst po anonimizacji:
+Die Veranstaltung findet in der Straße Beim Schlump 84, 20144 anno_e4b1be70 statt.
+
+--------------------------------------------------
+
