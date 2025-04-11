@@ -25,7 +25,7 @@ services:
       - db
     environment:
       - DATABASE_URL=postgresql://anon_user:securepassword@db/anon_db
-    command: "uvicorn app.main:app --host 0.0.0.0 --port 8001 --workers 4"
+    command: "uvicorn app.main:app --host 0.0.0.0 --port 8001 --workers 2"
     networks:
       - internal_network
 
