@@ -2,25 +2,7 @@
 
 ## Priorytetowe zadania
 
-### 1. Ulepszenie wykrywania i łączenia adresów
-- [ ] Zaimplementować bardziej efektywny algorytm łączenia elementów adresów (ulica, kod pocztowy, miasto) w jeden token
-- [ ] Dodać post-processing wykrytych encji, który będzie łączył blisko położone elementy adresów
-- [ ] Rozszerzyć wzorce adresów o więcej formatów niemieckich adresów
-- [ ] Uwzględnić różne przyimki i konteksty występowania adresów (nach, in, bei, etc.)
 
-### 2. Optymalizacja wykrywania dat
-- [ ] Poprawić wykrywanie dat w formatach bez kropki po dniu (np. "15 Januar 1910")
-- [ ] Dodać obsługę dat ze skróconymi nazwami miesięcy (Jan, Feb, etc.)
-- [ ] Uwzględnić daty z apostrofem dla lat (np. '23 zamiast 2023)
-
-### 3. Ulepszenie wykrywania tablic rejestracyjnych
-- [ ] Dopracować wzorce dla niemieckich tablic rejestracyjnych (M AB 123, B C 1, etc.)
-- [ ] Uwzględnić różne formaty i warianty tablic rejestracyjnych
-
-### 4. Rozszerzenie obsługi imion
-- [ ] Poprawić wykrywanie imion zaczynających się na E i kończących na a/e (Eva, Emma, Elena, etc.)
-- [ ] Rozszerzyć słownik imion o więcej przykładów
-- [ ] Uwzględnić kontekst występowania imion (np. po tytułach naukowych)
 
 ## Zadania techniczne
 
