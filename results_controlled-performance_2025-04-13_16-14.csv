@@ -1,0 +1,14 @@
+Metric,Value,Unit
+Requests Total,110,count
+Failed Requests,0,count
+Failure Rate,0,%
+Median Response Time,22.313049999999997,ms
+Average Response Time,39.67212090909089,ms
+Min Response Time,12.3764,ms
+Max Response Time,252.3284,ms
+p90 Response Time,85.96851000000001,ms
+p95 Response Time,122.87564999999998,ms
+p99 Response Time,229.68016499999987,ms
+Requests Per Second,0.2199250114211107,req/s
+Data Received,36102,bytes
+Data Sent,33746,bytes

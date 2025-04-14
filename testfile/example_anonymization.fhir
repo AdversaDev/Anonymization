@@ -13,7 +13,7 @@
       "use": "official",
       "family": "Mustermann",
       "given": [
-        "Max"
+        "Herbert"
       ]
     }
   ],
@@ -31,7 +31,7 @@
       "line": [
         "Hauptstraße 12"
       ],
-      "city": "Musterstadt",
+      "city": "München",
       "postalCode": "12345",
       "country": "DE"
     }

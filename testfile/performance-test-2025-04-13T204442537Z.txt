@@ -1,0 +1,30 @@
+     ✓ Status is 200
+     ✓ Has session_id
+     ✓ Has anonymized_text
+
+     checks..............................: 100.00% ✓ 3693     ✗ 0   
+     data_received.......................: 28 MB   44 kB/s
+     data_sent...........................: 27 MB   43 kB/s
+     dropped_iterations..................: 2311    3.643846/s
+     http_req_blocked....................: avg=43.36µs  min=0s       med=0s    max=6.94ms p(90)=0s      p(95)=515.4µs 
+     http_req_connecting.................: avg=27.02µs  min=0s       med=0s    max=1.09ms p(90)=0s      p(95)=0s      
+   ✓ http_req_duration...................: avg=7.67s    min=18.49ms  med=6.58s max=29.26s p(90)=15.03s  p(95)=17.84s  
+     ✓ { dataSize:extreme }..............: avg=8.49s    min=1.57s    med=7.09s max=28.78s p(90)=16.15s  p(95)=18.42s  
+     ✓ { dataSize:large }................: avg=7.01s    min=462.07ms med=6.35s max=29.26s p(90)=13.87s  p(95)=16.24s  
+     ✗ { dataSize:medium }...............: avg=6.69s    min=137.11ms med=5.84s max=22.72s p(90)=13.93s  p(95)=16.47s  
+     ✗ { dataSize:small }................: avg=7.38s    min=18.49ms  med=5.9s  max=27.65s p(90)=15.25s  p(95)=18.07s  
+       { expected_response:true }........: avg=7.67s    min=18.49ms  med=6.58s max=29.26s p(90)=15.03s  p(95)=17.84s  
+   ✓ http_req_failed.....................: 0.00%   ✓ 0        ✗ 1231
+     ✓ { testType:constant_load_test }...: 0.00%   ✓ 0        ✗ 0   
+     ✓ { testType:extreme }..............: 0.00%   ✓ 0        ✗ 0   
+     ✓ { testType:ramp_up_test }.........: 0.00%   ✓ 0        ✗ 0   
+     ✓ { testType:stress_test }..........: 0.00%   ✓ 0        ✗ 0   
+     http_req_receiving..................: avg=333.25µs min=0s       med=0s    max=14.2ms p(90)=758.9µs p(95)=1.08ms  
+     http_req_sending....................: avg=105.07µs min=0s       med=0s    max=1.19ms p(90)=523.7µs p(95)=533.35µs
+     http_req_tls_handshaking............: avg=0s       min=0s       med=0s    max=0s     p(90)=0s      p(95)=0s      
+     http_req_waiting....................: avg=7.66s    min=18.49ms  med=6.58s max=29.26s p(90)=15.03s  p(95)=17.84s  
+   ✓ http_reqs...........................: 1231    1.940967/s
+     iteration_duration..................: avg=7.67s    min=19.55ms  med=6.58s max=29.3s  p(90)=15.04s  p(95)=17.88s  
+     iterations..........................: 1231    1.940967/s
+     vus.................................: 1       min=0      max=40
+     vus_max.............................: 40      min=40     max=40
